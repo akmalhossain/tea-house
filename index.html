@@ -19,15 +19,18 @@
                 extend: {
                     colors: {
                         clifford: '#da373d',
-                    }
-                }
-            }
+                    },
+                    fontFamily:{
+                        manrope:['Manrope', 'sans-serif'],
+                    },
+                },
+            },
         }
     </script>
 
 </head>
 
-<body>
+<body class="font-manrope">
     <header class="max-w-screen-xl mx-auto px-16 lg:px-28">
         <div class="lg:flex  pt-10 mb-20">
             <!-- Text content -->
@@ -228,6 +231,45 @@
 
             </div>
         </section>
+        <!-- News & Events -->
+         <section>
+            <div class="text-center">
+
+                <h1 class="text-5xl font-bold mb-5 mt-10">New & Events</h1>
+                <p class="w-3/4 mx-auto text-gray-500">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 my-12 gap-5">
+                    <!-- 1 -->
+                     <div class="rounded-xl border border-gray-300 p-5 ">
+                        <img src="./images/news-1.png" alt="">
+                        <p class="text-left text-gray-500 mt-5 text-sm">Feb 05, 2017</p>
+                        <h3 class="text-left mt-3 text-xl font-bold w-3/4">Collecting 8 points for discount</h3>
+                        <p class="text-left mt-3">There are many variations of passages of Lorem Ipsum available.</p>
+                        <p class="text-left mt-4 font-bold text-lg"><a href="#">Learn More</a></p>
+
+                     </div>
+                    <!-- 2 -->
+                    <div class="rounded-xl border border-gray-300 p-5 ">
+                        <img src="./images/news-2.png" alt="">
+                        <p class="text-left text-gray-500 mt-5 text-sm">Feb 05, 2017</p>
+                        <h3 class="text-left mt-3 text-xl font-bold w-3/4">Collecting 8 points for discount</h3>
+                        <p class="text-left mt-3">There are many variations of passages of Lorem Ipsum available.</p>
+                        <p class="text-left mt-4 font-bold text-lg"><a href="#">Learn More</a></p>
+
+                     </div>
+                    <!-- 3 -->
+                    <div class="rounded-xl border border-gray-300 p-5 ">
+                        <img src="./images/news-3.png" alt="">
+                        <p class="text-left text-gray-500 mt-5 text-sm">Feb 05, 2017</p>
+                        <h3 class="text-left mt-3 text-xl font-bold w-3/4">Collecting 8 points for discount</h3>
+                        <p class="text-left mt-3">There are many variations of passages of Lorem Ipsum available.</p>
+                        <p class="text-left mt-4 font-bold text-lg"><a href="#">Learn More</a></p>
+
+                     </div>
+                </div>
+
+            </div>
+         </section>
 
     </main>
     <footer class="bg-orange-100  text-gray-700 py-10 px-4 md:px-16">
@@ -315,6 +357,7 @@
         </div>
         <p class="text-center mt-16 ">© 2027 UIDesign.to - All rights reserved.</p>
     </footer>
+    <div class="bg-black grid grid-cols-[200px_300px]"></div>
 </body>
 
 </html>
